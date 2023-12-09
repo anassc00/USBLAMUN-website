@@ -1,0 +1,72 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgNDQ0IBwcHBwcICA0HBwcHBw8ICQcNFREWFhURHxUYHSggGCYlGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0OFQ8PFSsZFRkrKystLS0rNy0rLS0tLS0tLS0rKysrKysrKysrNy0rKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIGAwf/xAAXEAEBAQEAAAAAAAAAAAAAAAAAAQIR/8QAGgEBAQEBAQEBAAAAAAAAAAAAAgMAAQYFBP/EABcRAQEBAQAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/APrYD4sfuQVFIwAcdEUUjIAcYAUjACkZAFIyM1pmqQaxWK3WKUS0xWK3Wa7EaxWa1WaUSrNZrVZpxOs1K1WacCs1GqycCozVqKQKyzWqhwKyA6LqAHio9GAHGQBSMAKR1KFFIwApGADjJQopGRKtSqRyvOsV6V500dMVmtVmkjpis1qs11Ks1FqHE6zWa0lODWWa0zVInUZrTNKBWai1FIFQB0XTgPFR6MEFIwAcYAUjqCopGAFIwUQ4xQFIyVKqVSOVivOvSvOlEtMVmtVmkjpis1qs0kazUWoUTrKValUg1mstVk4nWalWocCsotSqQKgDounRR4uPRpQDjACkYAUjqFA4wApGEVFIwApGRKrNUg1isVusUolpis1qsV2I1ms1qsklWazWqzTidRKtZpwalZaZUidZSrUpwKzWa1WacCgiui6cErxkejAFI6AHGEVFIwAcYAUjCC1SMgJVIxWa0xTg1msVqsaJHTGma1WK7EalYrVZpROpWatQ4nUrNVFIFSs1alOBWUq1mnAqVmtVmnAqAOi6hAePkejADkdADkYRUORgBSMAHGSAKR0RUUjiVmtVmqQKxXnW689MjpmsVdM12IWpUWs04nUZrVZOBUrNWpTgVKzVqU4FZSqzTgVKlWs0woIpC6cB5GR6QAKR0AORhFQ5GADkYQFIwAcZKUSqRypaxatZtOJ2s6eemqxXUdVmsVqs11GozVQ4nUqUqHASsrUOBUQSnBqVmtVk4FSs1alOBUAdF1ADykj0oihSMgByMAFIwApIyAHGEVFI4lrNWs0oNqVjTVYtKJWs1itaYpJWs1mrUdSqVlahxOozWqzTg1Eq1mnE6lZarNOBUqUSnAqM1ayUGggQuqAeWkemACkZACkYAORgEOR0BFJHBBDkG1LWbSs2knalrFpaza6laVirazSStSs1azXYnaVKMqQKIVKcCpUq1mlAqVmtVmnAqVlalOBUrNWs0oNBB0HVoDzMj1CoBSMAHIwioUjAIcjKgnTkctLWaVi04FpWLVtYtdS1WbWVtZrqNqWs1ay7E7SoVKcgVKhUpwalSrWacCjK1DkCpWVZpwKVmrUKBUrNarJQLUAdHrqgHnOPUgIUjAHSkYBDkZUTqdKQerazaWsWkN0trFpaza6laWsWlrNrqdqVmraySVpWatQpAqVC1DkGjNWs0pAoyqU4FqVKJTgVEpUpwalSlCgVKipXU7UFHR66kB596tACdEAnBKByCiWg6NZtYtB1OsWs2gyVrNrNoFE6lrKhQKzWaBwaiUDgVEoFBrKUDgVKyBwKzUAhqVAIKAMlUAdF/9k=");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.main-header {
+    background-color: whitesmoke;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.name-header {
+    color: #fdc95b;
+    font-size: 30px;
+}
+
+.logo-header {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+
+}
+
+.principal ul {
+    list-style: none;
+    text-align: right;
+    padding-left: 450px;
+
+}
+
+.principal ul li {
+    display: inline;
+    margin-left: 25px;
+
+}
+
+.principal a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.principal a:hover {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+p {
+    color: rgb(85, 84, 84);
+    text-align: justify;
+    font-size: 16px;
+}
+
+.slogan {
+    color: rgb(85, 84, 84);
+    font-weight: bolder;
+}
+
+.articleImage {
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
